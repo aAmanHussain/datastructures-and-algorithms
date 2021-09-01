@@ -32,11 +32,11 @@ export const largest3 = (arr: number[]): number => Math.max(...arr);
 
 
 
-let arr = [1, 118, 7, 56, 90];
-let largestResult = largest1(arr);
-console.log(`Largest number in ${arr} = ${largestResult}`);
+let input = [1, 118, 7, 56, 90];
+let largestResult = largest1(input);
+console.log(`Largest number in ${input} = ${largestResult}`);
 
 
-arr = [1, 2, 0, 3, 2, 4, 5];
-largestResult = largest3(arr);
-console.log(`Largest number in ${arr} = ${largestResult}`);
+input = [1, 2, 0, 3, 2, 4, 5];
+largestResult = largest3(input);
+console.log(`Largest number in ${input} = ${largestResult}`);

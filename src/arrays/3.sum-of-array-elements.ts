@@ -23,10 +23,10 @@ const getSum1 = (arr: number[]): number => {
 const getSum2 = (arr: number[]): number => arr.reduce((total: number, num: number) => total + num, 0);
   
 
-let arr = [1, 2, 3, 4];
-let getSumResult = getSum2(arr);
-console.log(`XOR array of ${arr} = ${getSumResult}`);
+let input = [1, 2, 3, 4];
+let getSumResult = getSum2(input);
+console.log(`Summation pf ${input} = ${getSumResult}`);
 
-arr = [5, 8, 3, 10, 22, 45];
-getSumResult = getSum2(arr);
-console.log(`XOR array of ${arr} = ${getSumResult}`);
+input = [5, 8, 3, 10, 22, 45];
+getSumResult = getSum2(input);
+console.log(`Summation pf ${input} = ${getSumResult}`);
