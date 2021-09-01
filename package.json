@@ -4,7 +4,9 @@
   "description": "a starter repository for common dsa problems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint"
   },
   "repository": {
     "type": "git",
